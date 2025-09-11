@@ -34,7 +34,7 @@ export function FranchiseSection() {
       name: "Silver",
       nameMr: "रजत",
       icon: Star,
-      price: "₹2,50,000",
+      price: "₹75000",
       monthlyFee: "₹5,000",
       popular: false,
       roi: "12-15 months",
@@ -66,7 +66,7 @@ export function FranchiseSection() {
       name: "Gold",
       nameMr: "सुवर्ण",
       icon: Crown,
-      price: "₹4,50,000",
+      price: "₹1,50,000",
       monthlyFee: "₹8,000",
       popular: true,
       roi: "10-12 months",
@@ -105,7 +105,7 @@ export function FranchiseSection() {
       name: "Diamond",
       nameMr: "हीरा",
       icon: Diamond,
-      price: "₹7,50,000",
+      price: "₹2,00,000",
       monthlyFee: "₹12,000",
       popular: false,
       roi: "8-10 months",
@@ -414,7 +414,7 @@ export function FranchiseSection() {
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
                 <TrendingUp className="w-6 h-6 text-primary" />
               </div>
-              <div className="text-2xl font-bold text-primary">95%</div>
+              <div className="text-2xl font-bold text-primary">100%</div>
               <div className="text-sm text-muted-foreground">Partner Satisfaction</div>
             </div>
             <div className="text-center space-y-2">

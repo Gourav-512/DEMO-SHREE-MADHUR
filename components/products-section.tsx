@@ -20,6 +20,7 @@ export function ProductsSection() {
       rating: 4.8,
       popular: true,
       ingredients: ["Tea Leaves", "Milk", "Sugar", "Cardamom", "Ginger"],
+      image: "/only-tea.png",
     },
     {
       id: 2,
@@ -33,11 +34,12 @@ export function ProductsSection() {
       rating: 4.6,
       popular: false,
       ingredients: ["Tea Leaves", "Milk", "Jaggery", "Cardamom"],
+      image: "/ginger-tea.png",
     },
     {
       id: 3,
-      name: "Black Tea",
-      nameMr: "काळा चहा",
+      name: "Black Coffee",
+      nameMr: "काळा कॉफी",
       category: "Hot Tea",
       price: "₹12",
       description: "Pure black tea for the purists",
@@ -46,6 +48,7 @@ export function ProductsSection() {
       rating: 4.4,
       popular: false,
       ingredients: ["Premium Tea Leaves", "Sugar (Optional)"],
+      image: "/Black-coffee.png",
     },
     {
       id: 4,
@@ -59,6 +62,7 @@ export function ProductsSection() {
       rating: 4.7,
       popular: true,
       ingredients: ["Green Tea Leaves", "Honey (Optional)"],
+      image: "/Green-tea.png",
     },
     {
       id: 5,
@@ -72,6 +76,7 @@ export function ProductsSection() {
       rating: 4.5,
       popular: false,
       ingredients: ["Tea Leaves", "Fresh Lemon", "Sugar", "Mint"],
+      image: "/lemon-sharbat.png",
     },
     {
       id: 6,
@@ -85,6 +90,7 @@ export function ProductsSection() {
       rating: 4.6,
       popular: false,
       ingredients: ["Tea Leaves", "Fresh Ginger", "Milk", "Sugar"],
+      image: "/fresh-tea-ingredients-spices-cardamom-ginger.jpg",
     },
     {
       id: 7,
@@ -98,6 +104,8 @@ export function ProductsSection() {
       rating: 4.9,
       popular: true,
       ingredients: ["Milk", "Almonds", "Saffron", "Sugar", "Cardamom"],
+      image: "/kesar-milk.png",
+
     },
     {
       id: 8,
@@ -111,6 +119,7 @@ export function ProductsSection() {
       rating: 4.7,
       popular: false,
       ingredients: ["Chilled Milk", "Almonds", "Sugar", "Ice"],
+      image: "/cold-milk.png",
     },
     {
       id: 9,
@@ -124,6 +133,7 @@ export function ProductsSection() {
       rating: 4.3,
       popular: false,
       ingredients: ["Tea Leaves", "Milk", "Natural Sweeteners"],
+      image: "/sugarless-tea.png",
     },
     {
       id: 10,
@@ -137,6 +147,7 @@ export function ProductsSection() {
       rating: 4.8,
       popular: true,
       ingredients: ["Coffee Powder", "Milk", "Sugar"],
+      image: "/filter-coffee.png",
     },
     {
       id: 11,
@@ -150,6 +161,7 @@ export function ProductsSection() {
       rating: 4.9,
       popular: true,
       ingredients: ["Coffee", "Milk", "Ice Cream", "Sugar", "Whipped Cream"],
+      image: "/cold-coffee.png",
     },
     {
       id: 12,
@@ -163,6 +175,7 @@ export function ProductsSection() {
       rating: 4.6,
       popular: false,
       ingredients: ["Fresh Lemon", "Mint Leaves", "Sugar", "Ice", "Salt"],
+      image: "/lemon-sharbat.png",
     },
     {
       id: 13,
@@ -176,6 +189,7 @@ export function ProductsSection() {
       rating: 4.5,
       popular: false,
       ingredients: ["Kokam", "Sugar", "Black Salt", "Cumin", "Ice"],
+      image: "/kokam.png",
     },
     {
       id: 14,
@@ -189,10 +203,12 @@ export function ProductsSection() {
       rating: 4.2,
       popular: false,
       ingredients: ["Wheat Flour", "Sugar", "Butter", "Baking Powder"],
+      image: "/bun-paav.png",
+
     },
     {
       id: 15,
-      name: "Seasonal Specials",
+      name: "Bun Paav",
       nameMr: "हंगामी विशेष",
       category: "Special",
       price: "₹25",
@@ -202,6 +218,7 @@ export function ProductsSection() {
       rating: 4.8,
       popular: true,
       ingredients: ["Seasonal Ingredients", "Special Spices"],
+      image: "/bun-paav.png",
     },
   ]
 
@@ -274,14 +291,23 @@ export function ProductsSection() {
               </button>
 
               <div className="aspect-square bg-gradient-to-br from-card to-accent/20 flex items-center justify-center relative">
-                {/* Product Icon */}
-                <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                  <product.icon className="w-10 h-10 text-primary" />
-                </div>
+  {/* Product Image OR Icon */}
+  {product.image ? (
+    <img
+      src={product.image}
+      alt={product.name}
+      className="w-full h-full object-cover"
+    />
+  ) : (
+    <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+      <product.icon className="w-10 h-10 text-primary" />
+    </div>
+  )}
 
-                {/* Category Badge */}
-                <Badge className="absolute bottom-3 right-3 text-xs">{product.category}</Badge>
-              </div>
+  {/* Category Badge */}
+  <Badge className="absolute bottom-3 right-3 text-xs">{product.category}</Badge>
+</div>
+
 
               <CardContent className="p-4 space-y-3">
                 <div className="space-y-2">

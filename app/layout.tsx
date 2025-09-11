@@ -6,6 +6,7 @@ import { Playfair_Display, Baloo_2, Poppins } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
+import WhatsAppButton from "@/components/ui/whatsapp-button";
 
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
@@ -42,8 +43,12 @@ export default function RootLayout({
       <body
         className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${playfairDisplay.variable} ${baloo2.variable} ${poppins.variable}`}
       >
+        {/* ✅ फक्त एकदाच children render */}
         <Suspense fallback={null}>{children}</Suspense>
+        
+        {/* Analytics + Floating WhatsApp Button */}
         <Analytics />
+        <WhatsAppButton />
       </body>
     </html>
   )

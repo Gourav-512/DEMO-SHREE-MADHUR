@@ -53,19 +53,17 @@ export function AboutSection() {
           </div>
 
           {/* Right Image */}
-          <div className="relative">
-            <div className="aspect-square bg-gradient-to-br from-card to-accent/20 rounded-2xl flex items-center justify-center">
-              <div className="text-center space-y-4">
-                <div className="w-32 h-32 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                  <Coffee className="w-16 h-16 text-primary" />
-                </div>
-                <div className="space-y-2">
-                  <h3 className="text-2xl font-serif font-bold text-foreground">Premium Quality</h3>
-                  <p className="text-muted-foreground font-display">उत्कृष्ट गुणवत्ता</p>
-                </div>
-              </div>
-            </div>
-          </div>
+       {/* Right Image */}
+<div className="relative">
+  <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
+    <img 
+      src="/logo.png"  // put your image here
+      alt="Premium Tea"
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
+
         </div>
 
         {/* Features Grid */}
