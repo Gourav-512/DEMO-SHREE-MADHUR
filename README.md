@@ -30,4 +30,46 @@ Check out the live version here: [demo-shree-madhur.vercel.app](https://demo-shr
 - Custom hooks for reusable logic  
 - Global & component-level styling (CSS / possibly styled components)  
 - Static/public assets served via `public/` folder  
-- Responsive design  
+- Responsive design
+
+
+## Getting Started
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/Gourav-512/DEMO-SHREE-MADHUR.git
+   cd DEMO-SHREE-MADHUR
+   ```
+
+2. **Install dependencies**
+   If using npm:
+
+   ```bash
+   npm install
+   ```
+
+   Or if pnpm:
+
+   ```bash
+   pnpm install
+   ```
+
+3. **Run in development mode**
+
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
+
+4. **Build for production**
+
+   ```bash
+   npm run build
+   npm start
+   # or with pnpm
+   pnpm build
+   pnpm start
+   ```
+
