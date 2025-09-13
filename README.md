@@ -18,3 +18,7 @@
 
 Shree Madhur is a demo website showcasing modern web development practices using **Next.js** with **TypeScript**.  
 It has modular components, custom hooks, global styles, and uses public assets for images/static files.
+
+## Demo / Live Site
+
+Check out the live version here: [demo-shree-madhur.vercel.app](https://demo-shree-madhur.vercel.app)  
