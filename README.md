@@ -96,3 +96,22 @@ postcss.config.mjs → PostCSS configuration
 * **Bundler / Build Config:** Next.js config, PostCSS
 * **Hosting / Deployment:** Vercel
 
+## How to Contribute
+
+1. **Fork the repo**
+2. **Create a branch**
+
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make changes & commit**
+
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. **Push branch**
+
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. **Open a Pull Request**
