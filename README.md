@@ -73,3 +73,18 @@ Check out the live version here: [demo-shree-madhur.vercel.app](https://demo-shr
    pnpm start
    ```
 
+## Folder Structure
+
+```
+/app          → Main application & routing  
+/components   → Reusable UI components  
+/hooks        → Custom React hooks  
+/lib          → Utility functions  
+/public       → Static assets (images, icons, etc.)  
+/styles       → Global & component-level CSS  
+next.config.mjs → Next.js configuration  
+package.json   → Project metadata & dependencies  
+tsconfig.json  → TypeScript configuration  
+postcss.config.mjs → PostCSS configuration  
+```
+
