@@ -12,3 +12,9 @@
 - [Tech Stack](#tech-stack)  
 - [How to Contribute](#how-to-contribute)  
 - [License](#license)
+
+
+## About
+
+Shree Madhur is a demo website showcasing modern web development practices using **Next.js** with **TypeScript**.  
+It has modular components, custom hooks, global styles, and uses public assets for images/static files.
