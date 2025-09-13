@@ -88,3 +88,11 @@ tsconfig.json  → TypeScript configuration
 postcss.config.mjs → PostCSS configuration  
 ```
 
+## Tech Stack
+
+* **Framework:** Next.js
+* **Language:** TypeScript & JavaScript
+* **Styling:** CSS (or Tailwind/PostCSS if added)
+* **Bundler / Build Config:** Next.js config, PostCSS
+* **Hosting / Deployment:** Vercel
+
