@@ -22,3 +22,12 @@ It has modular components, custom hooks, global styles, and uses public assets f
 ## Demo / Live Site
 
 Check out the live version here: [demo-shree-madhur.vercel.app](https://demo-shree-madhur.vercel.app)  
+
+## Features
+
+- Built with **Next.js** + **TypeScript**  
+- Modular component design  
+- Custom hooks for reusable logic  
+- Global & component-level styling (CSS / possibly styled components)  
+- Static/public assets served via `public/` folder  
+- Responsive design  
