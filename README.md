@@ -88,7 +88,7 @@ tsconfig.json  → TypeScript configuration
 postcss.config.mjs → PostCSS configuration  
 ```
 
-## Tech Stack
+## Tech Stack :-
 
 * **Framework:** Next.js
 * **Language:** TypeScript & JavaScript
