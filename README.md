@@ -32,6 +32,14 @@ Check out the live version here: [demo-shree-madhur.vercel.app](https://demo-shr
 - Static/public assets served via `public/` folder  
 - Responsive design
 
+<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/b19fe40c-a1e3-4e5e-afd9-bab9a19bb737" />
+<img width="1904" height="907" alt="image" src="https://github.com/user-attachments/assets/57cf954f-3a1b-4456-9230-4154ff8a330e" />
+<img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/760ea050-f212-4408-b6c9-a651ef97c258" />
+<img width="1919" height="917" alt="image" src="https://github.com/user-attachments/assets/ec831818-1106-47ba-9db2-6975ce6b1752" />
+
+
+
+
 
 ## Getting Started
 
