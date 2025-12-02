@@ -36,6 +36,10 @@ Check out the live version here: [demo-shree-madhur.vercel.app](https://demo-shr
 <img width="1904" height="907" alt="image" src="https://github.com/user-attachments/assets/57cf954f-3a1b-4456-9230-4154ff8a330e" />
 <img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/760ea050-f212-4408-b6c9-a651ef97c258" />
 <img width="1919" height="917" alt="image" src="https://github.com/user-attachments/assets/ec831818-1106-47ba-9db2-6975ce6b1752" />
+<img width="1919" height="922" alt="image" src="https://github.com/user-attachments/assets/a4d1811b-3621-4d5a-9841-f53da37375b7" />
+<img width="1919" height="902" alt="image" src="https://github.com/user-attachments/assets/fa28d62b-4255-4672-9170-f9cff3e80e29" />
+
+
 
 
 
